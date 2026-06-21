@@ -114,6 +114,25 @@ nav{position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-co
 .lc:hover{border-color:rgba(91,124,255,0.4);transform:translateY(-3px);}
 .lc img{max-height:36px;max-width:130px;width:auto;object-fit:contain;filter:brightness(1);}
 .lc span{font-size:0.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+
+/* EXPERTS */
+#expert{padding:85px 5vw;background:#0d0d0d;}
+.ei{max-width:900px;margin:0 auto;}
+.eh{text-align:center;margin-bottom:46px;}
+.hl-box{display:inline;background:rgba(91,124,255,0.15);border:1px solid rgba(91,124,255,0.4);border-radius:8px;padding:2px 12px;color:var(--accent);}
+.eg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;justify-items:center;}
+.ecard{background:#1a1a1a;border:1px solid var(--border);border-radius:20px;padding:36px 28px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;max-width:360px;width:100%;transition:border-color 0.3s,transform 0.3s;}
+.ecard:hover{border-color:rgba(91,124,255,0.35);transform:translateY(-4px);}
+.ephoto{width:115px;height:115px;border-radius:50%;overflow:hidden;border:3px solid rgba(91,124,255,0.4);flex-shrink:0;}
+.ephoto img{width:100%;height:100%;object-fit:cover;object-position:top center;}
+.ename{font-family:'Syne',sans-serif;font-weight:800;font-size:1.25rem;}
+.erole{color:var(--muted);font-size:0.86rem;}
+.esoc{display:flex;gap:12px;margin-top:4px;}
+.esoc a{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid var(--border);transition:background 0.2s,border-color 0.2s;text-decoration:none;}
+.esoc a:hover{background:rgba(91,124,255,0.15);border-color:var(--accent);}
+.esoc svg{width:15px;height:15px;fill:var(--muted);}
+.esoc a:hover svg{fill:var(--accent);}
+
 /* FAQ */
 #faq{padding:85px 5vw;max-width:860px;margin:0 auto;}
 .faq-list{display:flex;flex-direction:column;}
@@ -516,3 +535,4 @@ function toggleFaq(btn){
 <elevenlabs-convai agent-id="agent_2801kpb972f2e2yrsqfp30gsdn0b"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 </body>
 </html>
+
